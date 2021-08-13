@@ -1,3 +1,6 @@
+The site lives in https://react-simple-projects-willyan-bertolino.netlify.app/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
