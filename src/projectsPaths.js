@@ -14,11 +14,51 @@ import AppNavbar from './components/navbar/AppNavbar';
 import SidebarApp from './components/sidebar_modal/SidebarApp';
 import Stripe from './components/stripe/Stripe';
 import CocktailsApp from './components/cocktails/CocktailsApp';
+import Markdown from './components/markdown/Markdown';
+import RandomUser from './components/randomUser/RandomUser';
+import Pagination from './components/pagination/Pagination';
+import StockPhotos from './components/stockPhotos/StockPhotos';
+import DarkMode from './components/darkMode/DarkMode';
+import MovieDB from './components/movieDB/MovieDB';
+import HackerNews from './components/hackerNews/HackerNews';
+import Quiz from './components/quiz/Quiz';
 
 export const projectsPaths = [
   {
     path: '/',
     app: <Projects />,
+  },
+  {
+    path: '/quiz',
+    app: <Quiz />,
+  },
+  {
+    path: '/hacker-news',
+    app: <HackerNews />,
+  },
+  {
+    path: '/moviedb',
+    app: <MovieDB />,
+  },
+  {
+    path: '/dark-mode',
+    app: <DarkMode />,
+  },
+  {
+    path: '/stock-photos',
+    app: <StockPhotos />,
+  },
+  {
+    path: '/pagination',
+    app: <Pagination />,
+  },
+  {
+    path: '/random-user',
+    app: <RandomUser />,
+  },
+  {
+    path: '/markdown',
+    app: <Markdown />,
   },
   {
     path: '/birthday-reminder',

@@ -16,12 +16,60 @@ import color from './assets/color.JPG';
 
 export const projectsLinks = [
   {
+    name: 'quiz',
+    path: '/quiz',
+    img: '',
+    hooks: 'useState, UseEffect, CustomHook',
+  },
+
+  {
+    name: 'hacker news',
+    path: '/hacker-news',
+    img: '',
+    hooks: 'useState, UseEffect',
+  },
+  {
+    name: 'movie DB',
+    path: '/moviedb',
+    img: '',
+    hooks: 'useState, UseEffect',
+  },
+  {
+    name: 'dark mode',
+    path: '/dark-mode',
+    img: '',
+    hooks: 'useState, UseEffect',
+  },
+  {
+    name: 'stock photos',
+    path: '/stock-photos',
+    img: '',
+    hooks: 'useState, UseEffect',
+  },
+  {
+    name: 'pagination',
+    path: '/pagination',
+    img: '',
+    hooks: 'useState, UseEffect, CustomHook',
+  },
+  {
+    name: 'random user',
+    path: '/random-user',
+    img: '',
+    hooks: 'useState, UseEffect',
+  },
+  {
+    name: 'markdown',
+    path: '/markdown',
+    img: '',
+    hooks: 'useState',
+  },
+  {
     name: 'cocktails',
     path: '/cocktails',
     img: cocktails,
     hooks: 'useState, useContext, useEffect, useCallback, CustomHook',
   },
-
   {
     name: 'cart',
     path: '/cart-app',

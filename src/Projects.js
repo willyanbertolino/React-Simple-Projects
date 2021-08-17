@@ -17,9 +17,8 @@ const Projects = () => {
                     Explored Hooks:{' '}
                     <span className="hooks">{project.hooks}</span>
                   </p>
-                  <div className="img-container">
-                    <img src={project.img} alt={project.name} className="img" />
-                  </div>
+
+                  <img src={project.img} alt={project.name} className="img" />
                 </Link>
               </div>
             </article>

@@ -6,7 +6,6 @@ Variables
 
 :root {
   /* darkest grey - used for headings */
-  --primaryLightColor: #d4e6a5;
   --clr-grey-1: hsl(209, 61%, 16%);
   --clr-grey-2: hsl(211, 39%, 23%);
   --clr-grey-3: hsl(209, 34%, 30%);
@@ -93,7 +92,10 @@ p {
     line-height: 1;
   }
 }
-/*  global classes */
+
+main {
+  margin-bottom: 3rem;
+}
 
 .section-title {
   text-align: center;
@@ -109,19 +111,26 @@ p {
 }
 
 .card {
-  background: var(--clr-grey-5);
+  background: var(--clr-grey-9);
   box-shadow: var(--light-shadow);
-  margin-bottom: 2rem;
   transition: var(--transition);
+  position: relative;
+  transition: opacity ease-out 250ms;
+  opacity: 1;
 }
 
-.card:hover {
-  box-shadow: var(--dark-shadow);
-  transform: scale(1.005);
+.link-container:hover {
+  background: var(--clr-grey-7);
+}
+.link-container:hover p {
+  color: var(--clr-grey-2);
 }
 
-.img-container {
-  margin: 0 auto;
+.link-container:hover span {
+  color: var(--clr-grey-3);
+}
+.link-container:hover .img {
+  opacity: 0.7;
 }
 
 .img {
@@ -129,7 +138,7 @@ p {
   height: 25rem;
   object-fit: cover;
   object-position: top;
-  border-top: 1px solid crimson;
+  border-top: 1px solid rgb(158, 30, 158);
   margin-top: 0.5rem;
   padding: 0 0.6rem;
   padding-top: 0.3rem;
@@ -139,10 +148,10 @@ p {
 .link-container {
   margin: 1rem auto;
 }
+
 .link {
   text-align: center;
   display: block;
-  background: var(--primaryLightColor);
   color: var(--clr-grey-1);
   text-transform: capitalize;
   font-size: 1.5rem;
@@ -163,7 +172,7 @@ p {
   margin: 1rem auto;
   width: 15rem;
   background: var(--clr-grey-5);
-  color: var(--primaryLightColor);
+  color: var(--clr-grey-8);
   text-align: center;
   text-transform: uppercase;
   font-size: 1rem;
@@ -174,7 +183,7 @@ p {
 }
 
 .btn-back-to-projects:hover {
-  background: var(--primaryLightColor);
+  background: var(--clr-grey-8);
   color: var(--clr-grey-5);
 }
 
