@@ -4,21 +4,23 @@ Global Styles
 ===============
 */
 
-:root {
-  --clr-bcg: #fff;
-  --clr-font: #282c35;
-  --clr-primary: #d23669;
-}
-
 .darkTheme {
   --clr-bcg: #282c35;
   --clr-font: #fff;
   --clr-primary: #ffa7c4;
 }
+
 .lightTheme {
   --clr-bcg: #fff;
   --clr-font: #282c35;
   --clr-primary: #d23669;
+}
+
+.main {
+  background: var(--clr-bcg);
+}
+.h1 {
+  color: var(--clr-font);
 }
 
 /*
