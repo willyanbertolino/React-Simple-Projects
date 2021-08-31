@@ -5,7 +5,7 @@ import data from './data';
 import Article from './Article';
 
 const getStoregeTheme = () => {
-  let theme = darkModeCSS.lightTheme;
+  let theme = 'lightTheme';
   if (localStorage.getItem('theme')) {
     theme = localStorage.getItem('theme');
   }
@@ -21,10 +21,10 @@ const DarkMode = () => {
   }, [theme]);
 
   const toggleTheme = () => {
-    if (theme === 'darkMode_lightTheme__gyLWk') {
-      setTheme(darkModeCSS.darkTheme);
+    if (theme === 'lightTheme') {
+      setTheme('darkTheme');
     } else {
-      setTheme(darkModeCSS.lightTheme);
+      setTheme('lightTheme');
     }
   };
 

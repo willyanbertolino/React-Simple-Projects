@@ -4,23 +4,11 @@ Global Styles
 ===============
 */
 
-.darkTheme {
-  --clr-bcg: #282c35;
-  --clr-font: #fff;
-  --clr-primary: #ffa7c4;
-}
-
-.lightTheme {
-  --clr-bcg: #fff;
-  --clr-font: #282c35;
-  --clr-primary: #d23669;
-}
-
 .main {
-  background: var(--clr-bcg);
+  background: var(--clr-bcg-darkmode);
 }
 .h1 {
-  color: var(--clr-font);
+  color: var(--clr-font-darkmode);
 }
 
 /*
@@ -53,7 +41,7 @@ Navbar
   margin-bottom: 3rem;
 }
 .post h2 {
-  color: var(--clr-primary);
+  color: var(--clr-primary-darkmode);
   text-transform: capitalize;
   letter-spacing: 2px;
   font-size: 1.75rem;
@@ -67,8 +55,8 @@ Navbar
 }
 
 .btn {
-  background: var(--clr-primary);
-  color: var(--clr-bcg);
+  background: var(--clr-primary-darkmode);
+  color: var(--clr-bcg-darkmode);
   padding: 0.25rem 0.5rem;
   border-radius: 5px;
   border-color: transparent;

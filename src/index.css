@@ -187,6 +187,19 @@ main {
   color: var(--clr-grey-5);
 }
 
+/* darkmode project */
+.darkTheme {
+  --clr-bcg-darkmode: #282c35;
+  --clr-font-darkmode: #fff;
+  --clr-primary-darkmode: #ffa7c4;
+}
+
+.lightTheme {
+  --clr-bcg-darkmode: #fff;
+  --clr-font-darkmode: #282c35;
+  --clr-primary-darkmode: #d23669;
+}
+
 .hooks {
   color: var(--clr-grey-6);
   font-size: 0.9rem;
