@@ -1,5 +1,3 @@
-import React, { useState, useEffect } from 'react';
-
 import movieCSS from './movieDB.module.css';
 import { useParams, Link } from 'react-router-dom';
 import useFetch from './useFetch';

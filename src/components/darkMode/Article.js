@@ -3,7 +3,6 @@ import darkModeCSS from './darkMode.module.css';
 import moment from 'moment';
 
 const Article = ({ title, snippet, date, length }) => {
-  console.log(date);
   return (
     <article className={darkModeCSS.post}>
       <h2>{title}</h2>

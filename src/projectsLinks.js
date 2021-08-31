@@ -13,80 +13,88 @@ import tours from './assets/tours.JPG';
 import navbar from './assets/navbar.JPG';
 import sidebar from './assets/sidebar.JPG';
 import color from './assets/color.JPG';
+import pagination from './assets/pagination.JPG';
+import markdown from './assets/markdown.JPG';
+import randomUser from './assets/random_user.JPG';
+import photos from './assets/photos.JPG';
+import darkMode from './assets/dark_mode.JPG';
+import movieDB from './assets/movie_db.JPG';
+import hackerNews from './assets/hackers_news.JPG';
+import quiz from './assets/quiz.JPG';
 
 export const projectsLinks = [
   {
     name: 'quiz',
     path: '/quiz',
-    img: '',
-    hooks: 'useState, UseEffect, CustomHook',
+    img: quiz,
+    hooks: 'useState, UseContext, Custom Hook',
   },
 
   {
     name: 'hacker news',
     path: '/hacker-news',
-    img: '',
-    hooks: 'useState, UseEffect',
+    img: hackerNews,
+    hooks: 'useState, UseEffect, UseContext, useReducer, Custom Hook',
   },
   {
     name: 'movie DB',
     path: '/moviedb',
-    img: '',
-    hooks: 'useState, UseEffect',
+    img: movieDB,
+    hooks: 'useState, UseEffect, UseContext, Custom Hook',
   },
   {
     name: 'dark mode',
     path: '/dark-mode',
-    img: '',
+    img: darkMode,
     hooks: 'useState, UseEffect',
   },
   {
     name: 'stock photos',
     path: '/stock-photos',
-    img: '',
+    img: photos,
     hooks: 'useState, UseEffect',
   },
   {
     name: 'pagination',
     path: '/pagination',
-    img: '',
-    hooks: 'useState, UseEffect, CustomHook',
+    img: pagination,
+    hooks: 'useState, UseEffect, UseContext, Custom Hook',
   },
   {
     name: 'random user',
     path: '/random-user',
-    img: '',
+    img: randomUser,
     hooks: 'useState, UseEffect',
   },
   {
     name: 'markdown',
     path: '/markdown',
-    img: '',
+    img: markdown,
     hooks: 'useState',
   },
   {
     name: 'cocktails',
     path: '/cocktails',
     img: cocktails,
-    hooks: 'useState, useContext, useEffect, useCallback, CustomHook',
+    hooks: 'useState, useEffect, useContext, useCallback, Custom Hook',
   },
   {
     name: 'cart',
     path: '/cart-app',
     img: cart,
-    hooks: 'useState, useEffect, useContext, useReducer, CustomHook',
+    hooks: 'useState, useEffect, useContext, useReducer, Custom Hook',
   },
   {
     name: 'stripe',
     path: '/stripe',
     img: stripe,
-    hooks: 'useState, useEffect, useRef, useContext, CustomHook',
+    hooks: 'useState, useEffect, useRef, useContext, Custom Hook',
   },
   {
     name: 'sidebar',
     path: '/sidebar-app',
     img: sidebar,
-    hooks: 'useState, useContext, CustomHook',
+    hooks: 'useState, useContext, Custom Hook',
   },
   {
     name: 'navbar',

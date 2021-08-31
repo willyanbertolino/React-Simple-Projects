@@ -21,7 +21,7 @@ import StockPhotos from './components/stockPhotos/StockPhotos';
 import DarkMode from './components/darkMode/DarkMode';
 import MovieDB from './components/movieDB/MovieDB';
 import HackerNews from './components/hackerNews/HackerNews';
-import Quiz from './components/quiz/Quiz';
+import QuizApp from './components/quiz/QuizApp';
 
 export const projectsPaths = [
   {
@@ -30,7 +30,7 @@ export const projectsPaths = [
   },
   {
     path: '/quiz',
-    app: <Quiz />,
+    app: <QuizApp />,
   },
   {
     path: '/hacker-news',
